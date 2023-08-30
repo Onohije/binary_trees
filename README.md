@@ -26,4 +26,3 @@ the node's right child must be greater than the value of its parent.
 
 However, for tasks 0 to 23 (included) solely deals with simple binary
 trees. They are not BSTs, thus they don't follow any kind of rule.
-
