@@ -8,13 +8,13 @@
 
 int height(const binary_tree_t *node)
 {
-	int left_Height, righ_tHeight;
+	int left_Height, right_Height;
 
 	if (node == NULL)
 		return (0);
 	left_Height = height(node->left);
 	right_Height = height(node->right);
-	return (1 + (lef_tHeight > righ_tHeight ? left_Height : right_Height));
+	return (1 + (left_Height > right_Height ? left_Height : right_Height));
 }
 
 /**
