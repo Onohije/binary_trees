@@ -11,6 +11,7 @@
  * Return: Pointer to the newly created node, or NULL if failed
  * or parent is NULL.
  */
+
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 {
 	binary_tree_t *node;
