@@ -5,7 +5,7 @@
  * post-order travesal.
  * @tree: Pointer to the root node of the tree to
  * traverse.
- * @func: Pointer to a function to call for each node,
+ * @func: pointer to a function to call for each node,
  * the value in the node is required to be passed into `func`.
  * if `tree` or `func` is NULL do nothing.
  */
